@@ -1,0 +1,258 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "section"
+    "footer";
+    color: #804c36;
+}
+
+.nav {
+    background-color: rgb(255, 178, 166, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: absolute;
+    top: 0;
+    color: #A0664E;
+    font-size: 1.6rem;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+section {
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.NombrePasteleria {
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.fondo {
+    background-image: url("https://images.unsplash.com/photo-1542826438-bd32f43d626f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-position-y: -80px;
+}
+
+.logoFondo {
+    width: 300px;
+    height: 300px;
+}
+
+.fondocolor{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(255, 180, 168, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    width: 40%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu {
+    margin: auto;
+    text-align: left;
+}
+
+th {
+    font-size: 2rem;
+}
+
+.sabor {
+    width: 60vw;
+}
+
+.armaSabor {
+    width: 200px;
+}
+
+.precio {
+    text-align: right;
+}
+
+.armaDecoraciones {
+    width: 200px;
+}
+
+#cantPersonas {
+    width: 200px;
+}
+
+.datosContacto {
+    margin: auto;
+}
+
+.Boton_Pedido {
+    margin: auto;
+}
+
+.espacio {
+    width: 120px;
+}
+
+#descripcion {
+    height: 120px;
+    word-wrap: break-word;
+}
+
+h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.costoPersonas {
+    margin: 6px 0 6px 0;
+}
+
+hr {
+    margin-top: 30px;
+    width: 90%;
+    border: 0;
+    border-style: dotted;
+    border-width: 7px 0 0 0;
+    border-color: #ffb2a675;
+}
+
+.armarPastel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.armaPersonas {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    width: 200px;
+    margin: auto;
+}
+
+footer {
+    background-color: #FFB2A6;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.visitanos {
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+.direccion {
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+.horario {
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+.tituloDisponible {
+    display: inline;
+    text-align: center;
+}
+
+.disponible {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.espacioDispPast {
+    width: 300px;
+}
+
+.labelSelecciona {
+    text-align: center;
+    margin: auto;
+}
+
+.tituloDisponible {
+    display: block;
+}
+
+.Boton_Pedido {
+    background: #DF9475;
+    background-image: -webkit-linear-gradient(top, #DF9475, #B96B4B);
+    background-image: -moz-linear-gradient(top, #DF9475, #B96B4B);
+    background-image: -ms-linear-gradient(top, #DF9475, #B96B4B);
+    background-image: -o-linear-gradient(top, #DF9475, #B96B4B);
+    background-image: -webkit-gradient(to bottom, #DF9475, #B96B4B);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    width: 170px;
+    text-align: center;
+ }
+ 
+ .Boton_Pedido:hover {
+    border: solid #DF9475 1px;
+    background: #B96B4B;
+    background-image: -webkit-linear-gradient(top, #B96B4B, #D99275);
+    background-image: -moz-linear-gradient(top, #B96B4B, #D99275);
+    background-image: -ms-linear-gradient(top, #B96B4B, #D99275);
+    background-image: -o-linear-gradient(top, #B96B4B, #D99275);
+    background-image: -webkit-gradient(to bottom, #B96B4B, #D99275);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .tablaDatosContacto {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .espacioDatos {
+     width: 200px;
+ }
+
+ .right {
+     text-align: right;
+ }
